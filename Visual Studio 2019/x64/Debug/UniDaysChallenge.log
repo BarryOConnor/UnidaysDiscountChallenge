@@ -1,0 +1,5 @@
+﻿  UnidaysChallenge.cpp
+  UnidaysDiscountChallenge.cpp
+  Generating Code...
+E:\GitHub\UnidaysDiscountChallenge\Visual Studio 2019\UnidaysDiscountChallenge.cpp(22,22): warning C4244: '=': conversion from 'wint_t' to 'char', possible loss of data
+  UniDaysChallenge.vcxproj -> E:\GitHub\UnidaysDiscountChallenge\Visual Studio 2019\x64\Debug\UnidaysChallenge.exe
