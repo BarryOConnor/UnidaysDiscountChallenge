@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cctype>
 #include <stdlib.h>
 #include <vector>
 #include <algorithm>
@@ -19,7 +20,7 @@ bool UnidaysDiscountChallenge::AddToBasket(char _item) {
 	char itemToAdd;
 
 	//capitalise the letter for ease of comparison and use
-	itemToAdd = towupper(_item);
+	itemToAdd = toupper(_item);
 	
 	/* ----- sanity check to see if the item has a corresponding priceRule -----*/
 	//predicate lambda to check for the presence of a specific item within the pricing rules
